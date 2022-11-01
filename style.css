@@ -1,0 +1,260 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+    font-family: 'Game Over';
+    src: url('game_over.ttf');
+}
+
+body{
+    background-image: url(./src/imagens/9674a3ff21e02af82daa565e5773fa56.gif);
+    background-repeat:repeat-y;
+    background-size: 100%;
+    font-family: 'Game Over';
+ 
+}
+
+.page-wrapper{
+    background-image: url(./src/imagens/computer.gif);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    height: 100vh;
+    margin: 0 200px;
+}
+.intro{
+    background-image: url(./src/imagens/computer.gif);
+    background-repeat: no-repeat;
+}
+
+header{
+    margin: auto;
+    max-width: 50%;
+    background: rgba(0, 0, 0, 0.56);
+    text-align: center;
+}
+
+header h1{
+    padding-top: 50px;
+    font-size: 130px;
+    color: #9745FF;
+    font-weight: initial;
+}
+
+header h2{
+    font-size: 60px;
+    color: #00FF75;
+    font-weight: initial;
+}
+
+.summary{
+    background: rgba(0, 0, 0, 0.56);
+    padding: 20px;
+}
+
+.summary p{
+    margin: auto;
+    text-align: start;
+    max-width: 60%;
+    color: #fff;
+    font-size: 50px;
+}
+
+a{
+    color:  #00FFB2;
+}
+
+.preamble{
+    background: rgba(0, 0, 0, 0.56);
+    padding-bottom: 100px;
+}
+
+.preamble p{
+    max-width: 40%;
+    font-size: 40px;
+    font-weight: initial;
+    padding: 10px;
+    color: #fff;
+}
+
+h3{
+    font-size: 95px;
+    font-weight: initial;
+    padding: 20px;
+    color: #9745FF;
+}
+
+.supporting{
+    background: rgba(0, 0, 0, 0.56);
+}
+
+.explanation{
+    position: absolute;
+    top: 280px;
+    left: 860px;
+}
+
+.explanation p{
+    max-width: 68%;
+    font-size: 40px;
+    font-weight: initial;
+    padding: 10px;
+    color: #fff;
+}
+
+.participation{
+    background-image: url(./src/imagens/robo.gif);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: right;
+}
+
+.participation h3{
+    text-align: center;
+}
+
+.participation p{
+    padding: 20px;
+    color: #fff;
+    font-size: 40px;
+    max-width: 50%;
+}
+
+.participation a{
+    text-decoration: none;
+}
+
+.benefits{
+    background-image: url(./src/imagens/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    padding: 20px;
+    background-position: 20%;
+}
+
+.benefits h3{
+    text-align: center;
+}
+
+.benefits p{
+    margin-left: 500px;
+    padding: 20px;
+    color: #fff;
+    font-size: 40px;
+    max-width: 50%;
+}
+
+.requirements h3{
+    text-align: center;
+}
+
+.requirements p{
+    margin: 0 120px;
+    padding: 20px;
+    color: #fff;
+    font-size: 40px;
+}
+
+.requirements a{
+    text-decoration: none;
+}
+
+#info{
+    margin: 0 200px;
+    text-align: center;
+    font-size: 60px;
+}
+
+footer{
+    background-color: rgba(133, 16, 187, 0.548);
+    display: flex;
+    justify-content: center;
+}
+
+footer a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 60px;
+    color: #fff;
+}
+
+footer a:hover{
+    font-size: 90px;
+    transition: 0.5s ease ease-in-out;
+}
+
+.sidebar{
+    background: rgba(29, 55, 17, 0.59);
+    background-image: url(./src/imagens/caveira.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sidebar h3{
+    color: #00FF75;
+}
+
+.wrapper{
+    margin: 0 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+nav li{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+nav a {
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.design-name{
+    color: #fff;
+}
+
+.designer-name{
+    color:  #00FFB2;
+}
+
+.design-archives{
+    display: flex;
+    flex-direction: column;
+}
+
+.design-archives a{
+    color: #fff;
+}
+
+.zen-resources{
+    display: flex;
+    flex-direction: column;
+}
+
+.zen-resources ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.zen-resources li{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.zen-resources a {
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+}
+ 
