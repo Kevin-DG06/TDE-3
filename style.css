@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: 'Game Over';
-    src: url('game_over.ttf');
+    src: url('./src/fonts/game_over.ttf');
 }
 
 body{
